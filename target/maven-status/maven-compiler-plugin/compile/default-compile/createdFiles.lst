@@ -1,2 +1,8 @@
-haziraDBAPIs\TransactionAPI.class
+haziraDBAPIs\LaneTypeAPI.class
+haziraDBEntities\Lane.class
 haziraDBEntities\RFIDTransaction.class
+haziraDBAPIs\TransactionAPI.class
+haziraDBEntities\Location.class
+haziraDBEntities\LaneType.class
+haziraDBAPIs\LocationAPI.class
+haziraDBAPIs\LaneAPI.class

@@ -2,8 +2,6 @@ package haziraDBEntities;
 
 import java.io.Serializable;
 import java.sql.Date;
-import java.sql.Timestamp;
-
 import javax.persistence.*;
 
 /**
@@ -14,6 +12,10 @@ import javax.persistence.*;
 @Table
 public class RFIDTransaction implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 308004990934658097L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int rfid_transaction_id;
@@ -28,8 +30,6 @@ public class RFIDTransaction implements Serializable {
 	private int location_id;
 	private String lane_type_name;
 	private int lane_type_id;
-	
-	//private static final long serialVersionUID = 1L;
 
 	public RFIDTransaction() {
 		super();
